@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Whois-Raw
+%define		pdir	Net
+%define		pnam	Whois-Raw
 Summary:	Net::Whois::Raw - Perl extension for unparsed raw whois information
 Summary(pl):	Net::Whois::Raw - rozszerzenie Perla dla nieprzetworzonych informacji whois
 Name:		perl-Net-Whois-Raw
