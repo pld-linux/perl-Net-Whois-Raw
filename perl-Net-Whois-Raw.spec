@@ -8,13 +8,13 @@
 Summary:	Net::Whois::Raw - Perl extension for unparsed raw whois information
 Summary(pl):	Net::Whois::Raw - rozszerzenie Perla dla nieprzetworzonych informacji whois
 Name:		perl-Net-Whois-Raw
-Version:	0.37
+Version:	0.40
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	ed1086cbdf12199c3d6559ea3dd4557c
+# Source0-md5:	9f672566d4507532077efdf81df41c76
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
