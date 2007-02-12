@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Whois-Raw
 Summary:	Net::Whois::Raw - Perl extension for unparsed raw whois information
-Summary(pl):	Net::Whois::Raw - rozszerzenie Perla dla nieprzetworzonych informacji whois
+Summary(pl.UTF-8):   Net::Whois::Raw - rozszerzenie Perla dla nieprzetworzonych informacji whois
 Name:		perl-Net-Whois-Raw
 Version:	0.43
 Release:	1
@@ -33,17 +33,17 @@ against a set of known patterns. The first flag will try to omit the
 copyright message/disclaimer, the second will attempt to determine if
 the search failed and return undef in such a case.
 
-%description -l pl
+%description -l pl.UTF-8
 Net::Whois::Raw odpytuje serwery NetworkSolutions dla domen ORG, EDU,
-COM i NET. Dla innych domen najwy¿szego rzêdu (ang. Top Level Domains,
-TLDs), u¿yta zostanie przestrzeñ nazw whois-servers.net
+COM i NET. Dla innych domen najwyÅ¼szego rzÄ™du (ang. Top Level Domains,
+TLDs), uÅ¼yta zostanie przestrzeÅ„ nazw whois-servers.net
 ($TLD.whois-servers.net).
 
-Ustawienie zmiennych $OMIT_MSG i $CHECK_FAIL sprawi i¿ rezultaty bêd±
-porównane wzglêdem znanych wzorców. Pierwsza z nich spowoduje próbê
-pominiêcia informacji o prawach, druga sprawi i¿ nast±pi próba
-ustalenia czy wyszukiwanie siê nie powiod³o; je¶li tak, zwrócona
-zostanie warto¶æ undef.
+Ustawienie zmiennych $OMIT_MSG i $CHECK_FAIL sprawi iÅ¼ rezultaty bÄ™dÄ…
+porÃ³wnane wzglÄ™dem znanych wzorcÃ³w. Pierwsza z nich spowoduje prÃ³bÄ™
+pominiÄ™cia informacji o prawach, druga sprawi iÅ¼ nastÄ…pi prÃ³ba
+ustalenia czy wyszukiwanie siÄ™ nie powiodÅ‚o; jeÅ›li tak, zwrÃ³cona
+zostanie wartoÅ›Ä‡ undef.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
