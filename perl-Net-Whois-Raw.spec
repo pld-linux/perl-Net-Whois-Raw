@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Whois-Raw
 Summary:	Net::Whois::Raw - Perl extension for unparsed raw whois information
-Summary(pl.UTF-8):   Net::Whois::Raw - rozszerzenie Perla dla nieprzetworzonych informacji whois
+Summary(pl.UTF-8):	Net::Whois::Raw - rozszerzenie Perla dla nieprzetworzonych informacji whois
 Name:		perl-Net-Whois-Raw
 Version:	0.43
 Release:	1
