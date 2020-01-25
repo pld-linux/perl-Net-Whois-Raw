@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	Whois-Raw
 Summary:	Net::Whois::Raw - Perl extension for unparsed raw whois information
